@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria La Bella Napoli</title>
+    <link rel="stylesheet" href="pizzeria.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>La Bella Pizza</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Chi Siamo</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <!-- Due immagini di pizze sopra il pulsante -->
+            <div class="hero-images">
+                <img src="pizza-3010062_1280.jpg" alt="Pizza Margherita">
+                <img src="istockphoto-899907172-612x612.jpg" alt="Pizza Diavola">
+            </div>
+
+            <p>Le migliori pizze artigianali, cotte nel forno a legna!</p>
+            <a href="#location" class="btn">Menù</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Chi Siamo</h2>
+            <p>Siamo una pizzeria a conduzione familiare con oltre 20 anni di esperienza. La nostra passione è preparare pizze autentiche con ingredienti freschi e di qualità.</p>
+        </div>
+    </section>
+
+    <section id="location" class="location">
+        <div class="container">
+            <h2>La Nostra Location</h2>
+            <div class="map-box">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.456374958957!2d15.554780315503935!3d38.19382597970491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131c58d4d0cfd5d7%3A0x3e5d5f6177c4a0f0!2sMessina%2C%20Italy!5e0!3m2!1sen!2sit!4v1695999999999!5m2!1sen!2sit" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+            <p>Indirizzo: Via Roma 1, Napoli | Telefono: 123-456-7890</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contattaci</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Messaggio" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Pizzeria La Bella Napoli. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+</body>
+</html>
